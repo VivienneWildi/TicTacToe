@@ -3,7 +3,11 @@ const crossSymbol = '<ion-icon name="flash-outline"></ion-icon>';
 let isGameRunning = true;
 let fields =["e", "e", "e", "e", "e", "e", "e", "e", "e"];
 
+/*
+    Handles the click from the user.
 
+    fieldIn: any;
+*/
 function handleClick( fieldId )
 {
     if(isGameRunning)
